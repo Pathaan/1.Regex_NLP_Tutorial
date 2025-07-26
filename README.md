@@ -104,6 +104,7 @@ extract_personal_information(text)
  'birth_date': 'June 28, 1971',
  'birth_place': 'Pretoria, Transvaal, South Africa'}
 ```
+```
 text = '''
 Born	Mukesh Dhirubhai Ambani
 19 April 1957 (age 64)
@@ -123,8 +124,11 @@ Kokilaben Ambani (mother)
 Relatives	Anil Ambani (brother)
 Tina Ambani (sister-in-law)
 '''
+```
+```
 extract_personal_information(text)
 {'age': 64,
  'name': 'Mukesh Dhirubhai Ambani',
  'birth_date': '19 April 1957',
  'birth_place': 'Aden, Colony of Aden'}
+```
