@@ -2,6 +2,7 @@
 NLP Tutorial: Regular Expressions
 (1) Regex in customer support
 Retrieve order number
+```
 import re
 
 chat1='codebasics: Hello, I am having an issue with my order # 412889912'
@@ -20,6 +21,8 @@ pattern = 'order[^\d]*(\d*)'
 matches = re.findall(pattern, chat3)
 matches
 ['412889912']
+```
+```
 def get_pattern_match(pattern, text):
     matches = re.findall(pattern, text)
     if matches:
@@ -39,14 +42,17 @@ get_pattern_match('[a-zA-Z0-9_]*@[a-z]*\.[a-zA-Z0-9]*',chat2)
 get_pattern_match('[a-zA-Z0-9_]*@[a-z]*\.[a-zA-Z0-9]*',chat3)
 'abc@xyz.com'
 -----Phone number-----
-
+```
+```
 get_pattern_match('(\d{10})|(\(\d{3}\)-\d{3}-\d{4})',chat1)
 '1235678912'
 get_pattern_match('(\d{10})|(\(\d{3}\)-\d{3}-\d{4})', chat2)
 ('', '(123)-567-8912')
 get_pattern_match('(\d{10})|(\(\d{3}\)-\d{3}-\d{4})', chat3)
 ('1235678912', '')
+```
 (2) Regex for Information Extraction
+```
 text='''
 Born	Elon Reeve Musk
 June 28, 1971 (age 50)
@@ -71,6 +77,8 @@ Talulah Riley
 ​
 ​(m. 2013; div. 2016)
 '''
+```
+```
 get_pattern_match(r'age (\d+)', text)
 '50'
 get_pattern_match(r'Born(.*)\n', text).strip()
@@ -95,6 +103,7 @@ extract_personal_information(text)
  'name': 'Elon Reeve Musk',
  'birth_date': 'June 28, 1971',
  'birth_place': 'Pretoria, Transvaal, South Africa'}
+```
 text = '''
 Born	Mukesh Dhirubhai Ambani
 19 April 1957 (age 64)
