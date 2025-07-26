@@ -17,6 +17,7 @@ Standardizing text by converting to lowercase or uppercase.
 Removing extra spaces or line breaks.
 Tokenization (splitting text into words or sub-word units) and lemmatization/stemming (reducing words to their base form), though these often involve more sophisticated algorithms than just regex.
 
+<img width="1038" height="989" alt="image" src="https://github.com/user-attachments/assets/ffd06830-813b-43f4-9650-6efe1b67118b" />
 
 
 
