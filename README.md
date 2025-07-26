@@ -1,4 +1,6 @@
 # 1.Regex_NLP_Tutorial
+<img width="1001" height="547" alt="image" src="https://github.com/user-attachments/assets/42c9f810-b69f-42e7-9c99-1e342eca4028" />
+
 NLP Tutorial: Regular Expressions
 ## Regular expressions (regex) are a fundamental tool in Natural Language Processing (NLP) and are primarily used for pattern matching and text manipulation. While information extraction is a key application, regex functions in NLP can be broadly categorised into two main areas:
 
