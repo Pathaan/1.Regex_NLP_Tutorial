@@ -1,17 +1,22 @@
 # 1.Regex_NLP_Tutorial
 NLP Tutorial: Regular Expressions
 ## Regular expressions (regex) are a fundamental tool in Natural Language Processing (NLP) and are primarily used for pattern matching and text manipulation. While information extraction is a key application, regex functions in NLP can be broadly categorised into two main areas:
-Information Extraction:
+
+
+## Information Extraction:
 This involves identifying and extracting specific pieces of information from unstructured text based on defined patterns. Examples include:
 Extracting dates, phone numbers, email addresses, or monetary amounts.
 Identifying named entities like people, organizations, or locations.
 Parsing structured data from semi-structured text, such as log files or web pages.
-Text Preprocessing and Transformation:
+
+
+## Text Preprocessing and Transformation:
 This encompasses a range of tasks aimed at cleaning, normalizing, or transforming text data for further NLP analysis. Examples include:
 Removing or replacing specific characters, such as punctuation or special symbols.
 Standardizing text by converting to lowercase or uppercase.
 Removing extra spaces or line breaks.
 Tokenization (splitting text into words or sub-word units) and lemmatization/stemming (reducing words to their base form), though these often involve more sophisticated algorithms than just regex.
+
 
 
 
